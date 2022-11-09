@@ -10,6 +10,9 @@ const themes = {
   light: `${process.env.PUBLIC_URL}/light-theme.css`,
 };
 
+// eslint-disable-next-line
+console.log('rahul bt', process.env);
+
 const prevTheme = window.localStorage.getItem("theme");
 
 const subgraphUri = "http://localhost:8000/subgraphs/name/scaffold-eth/your-contract";
